@@ -8,6 +8,6 @@ public class NameDisplayManager : MonoBehaviour
 
     public void Awake()
     {
-        display_name.text = NameInputManager.scene1.user_name;
+        display_name.text = CheckInputField.scene1.user_name;
     }
 }
