@@ -7,7 +7,7 @@ public class Explore : MonoBehaviour
 {
     public void LoadExploreSceneOnClick()
     {
-        SceneManager.LoadSceneAsync("SampleScene");
+        SceneManager.LoadSceneAsync("ExploreScene");
         
     }
 }
