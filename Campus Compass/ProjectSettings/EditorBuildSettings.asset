@@ -5,17 +5,24 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Access.unity
     guid: e1e059ed248b06d4c936d69e2f450ae8
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Main.unity
     guid: 15f66cd6c1107c54686dfcd323a419e2
   - enabled: 0
     path: Assets/Scenes/SampleScene.unity
     guid: 7fdc40a0f4dc51c4589360f45ebb2cd3
   - enabled: 1
+<<<<<<< Updated upstream
     path: Assets/Scenes/ExploreScene.unity
     guid: f551f0b9a8a3fa14c8ce49b9fa7ee822
+=======
+    path: Assets/Scenes/4th Floor Map.unity
+    guid: 018062c45c6ef6248ba0349019227289
+>>>>>>> Stashed changes
   m_configObjects:
-    com.unity.xr.arfoundation.simulation_settings: {fileID: 11400000, guid: 479553d6dacac194483e954560312338, type: 2}
+    UnityEditor.XR.ARCore.ARCoreSettings: {fileID: 11400000, guid: 89a6d18d3df8d3e4fa917b0f9a963bc0, type: 2}
+    UnityEditor.XR.ARKit.ARKitSettings: {fileID: 11400000, guid: de8a8e4f987434338a4b1062feb8d069, type: 2}
+    com.unity.xr.arfoundation.simulation_settings: {fileID: 11400000, guid: b82edc08f1b13604c9c1934b4f948c56, type: 2}
