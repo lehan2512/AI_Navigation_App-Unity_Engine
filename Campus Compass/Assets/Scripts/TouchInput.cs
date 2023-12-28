@@ -2,9 +2,10 @@ using UnityEngine;
 using UnityEngine.EventSystems;
 using UnityEngine.UI;
 
+
 public class TouchInput : MonoBehaviour, IDragHandler
 {
-    public float scrollSpeed = 1.0f;
+    public float scrollSpeed = 5f;
 
     private RectTransform content;
     private RectTransform viewport;
@@ -18,10 +19,8 @@ public class TouchInput : MonoBehaviour, IDragHandler
 
     public void OnDrag(PointerEventData eventData)
     {
-        // Set the drag delta to zero for horizontal movement
+        // Ensure that only vertical scrolling occurs
         float deltaX = 0f;
-
-        // Get the drag delta only in the vertical direction
         float deltaY = eventData.delta.y;
 
         // Calculate the minY and maxY values dynamically based on content and viewport size
@@ -34,10 +33,7 @@ public class TouchInput : MonoBehaviour, IDragHandler
         // Clamp the Y position within the specified range
         newPosition.y = Mathf.Clamp(newPosition.y, minY, maxY);
 
-        // Keep the x-coordinates constant
-        newPosition.x = content.anchoredPosition.x;
-
-        // Apply the new position to the content
-        content.anchoredPosition = newPosition;
+        // Apply the new position to the content, keeping X position constant
+        content.anchoredPosition = new Vector2(content.anchoredPosition.x, newPosition.y);
     }
 }
