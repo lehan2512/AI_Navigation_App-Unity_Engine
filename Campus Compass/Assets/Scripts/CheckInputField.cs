@@ -10,6 +10,7 @@ public class CheckInputField : MonoBehaviour
     public static CheckInputField scene1;
     public TMP_InputField myInputField; 
     public TextMeshProUGUI notificationText;
+    
 
     public string user_name;
 
@@ -35,7 +36,12 @@ public class CheckInputField : MonoBehaviour
         {
             notificationText.text = ""; // Clear the message if input is not empty
             user_name = myInputField.text;
+            PlayerPrefs.SetString("Username", user_name);
+            PlayerPrefs.Save();
             SceneManager.LoadSceneAsync("Main");
         }
     }
+
+    
+    
 }

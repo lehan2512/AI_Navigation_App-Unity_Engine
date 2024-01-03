@@ -4,10 +4,19 @@ using UnityEngine;
 using TMPro;
 public class NameDisplayManager : MonoBehaviour
 {
-    public TextMeshProUGUI display_name;
+    public TextMeshProUGUI nameText; // Reference to the TextMeshProUGUI
 
-    public void Awake()
+    void Start()
     {
-        display_name.text = CheckInputField.scene1.user_name;
+        string storedName = PlayerPrefs.GetString("Username"); // Retrieve the stored name
+
+        if (!string.IsNullOrEmpty(storedName))
+        {
+            nameText.text = storedName; // Display the retrieved name
+        }
+        else
+        {
+            Debug.LogWarning("Player name not found!");
+        }
     }
 }
