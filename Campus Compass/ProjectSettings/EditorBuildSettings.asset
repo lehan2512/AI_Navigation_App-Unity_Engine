@@ -4,6 +4,7 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
+<<<<<<< Updated upstream
   m_Scenes:
   - enabled: 1
     path: Assets/Scenes/Access.unity
@@ -20,4 +21,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/CreateAccount.unity
     guid: 5e4ff53329c678643bfa1bc21ac96382
+=======
+  m_Scenes: []
+>>>>>>> Stashed changes
   m_configObjects: {}
