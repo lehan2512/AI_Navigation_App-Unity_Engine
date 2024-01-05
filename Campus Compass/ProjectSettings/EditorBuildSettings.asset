@@ -4,24 +4,5 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-<<<<<<< Updated upstream
-  m_Scenes:
-  - enabled: 1
-    path: Assets/Scenes/Access.unity
-    guid: e1e059ed248b06d4c936d69e2f450ae8
-  - enabled: 1
-    path: Assets/Scenes/Main.unity
-    guid: 15f66cd6c1107c54686dfcd323a419e2
-  - enabled: 1
-    path: Assets/Scenes/ExploreScene.unity
-    guid: f551f0b9a8a3fa14c8ce49b9fa7ee822
-  - enabled: 1
-    path: Assets/Scenes/4th Floor Map.unity
-    guid: 018062c45c6ef6248ba0349019227289
-  - enabled: 1
-    path: Assets/Scenes/CreateAccount.unity
-    guid: 5e4ff53329c678643bfa1bc21ac96382
-=======
   m_Scenes: []
->>>>>>> Stashed changes
   m_configObjects: {}
