@@ -1,15 +1,15 @@
+using System.Collections;
+using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.EventSystems;
 using UnityEngine.UI;
 
-public class TouchInput : MonoBehaviour, IDragHandler, IBeginDragHandler, IEndDragHandler
+public class TouchInput : MonoBehaviour, IDragHandler
 {
-    public float scrollSpeed = 5f;
+    public float scrollSpeed = 10.0f;
 
     private RectTransform content;
     private RectTransform viewport;
-
-    private bool isDragging = false;
 
     void Start()
     {
@@ -20,34 +20,22 @@ public class TouchInput : MonoBehaviour, IDragHandler, IBeginDragHandler, IEndDr
 
     public void OnDrag(PointerEventData eventData)
     {
-        if (isDragging)
-        {
-            // Ensure that only vertical scrolling occurs
-            float deltaX = 0f;
-            float deltaY = eventData.delta.y;
+        // Get the drag delta only in the horizontal direction
+        float deltaX = eventData.delta.x;
 
-            // Calculate the minY and maxY values dynamically based on content and viewport size
-            float minY = 0f;
-            float maxY = content.rect.height - viewport.rect.height;
+        // Calculate the minX and maxX values dynamically based on content and viewport size
+        float minX = 0f;
+        float maxX = content.rect.width - viewport.rect.width;
 
-            // Scroll the content based on the inverted drag delta and scroll speed
-            Vector2 newPosition = content.anchoredPosition - new Vector2(deltaX * scrollSpeed, deltaY * scrollSpeed);
+        // Scroll the content based on the inverted drag delta and scroll speed
+        Vector2 newPosition = content.anchoredPosition - new Vector2(deltaX * scrollSpeed, 0);
 
-            // Clamp the Y position within the specified range
-            newPosition.y = Mathf.Clamp(newPosition.y, minY, maxY);
+        // Clamp the X position within the specified range
+        newPosition.x = Mathf.Clamp(newPosition.x, minX, maxX);
 
-            // Apply the new position to the content, keeping X position constant
-            content.anchoredPosition = new Vector2(content.anchoredPosition.x, newPosition.y);
-        }
+        // Apply the new position to the content
+        content.anchoredPosition = newPosition;
     }
 
-    public void OnBeginDrag(PointerEventData eventData)
-    {
-        isDragging = true;
-    }
 
-    public void OnEndDrag(PointerEventData eventData)
-    {
-        isDragging = false;
-    }
 }

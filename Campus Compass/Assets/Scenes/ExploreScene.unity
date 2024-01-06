@@ -313,7 +313,7 @@ GameObject:
   - component: {fileID: 314971628}
   - component: {fileID: 314971627}
   m_Layer: 5
-  m_Name: RooftopDescription
+  m_Name: image
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1481,7 +1481,7 @@ GameObject:
   - component: {fileID: 1612332808}
   - component: {fileID: 1612332807}
   m_Layer: 5
-  m_Name: lobbydescription
+  m_Name: StudyArea
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1526,7 +1526,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 3aaa4b66f3329a64093460d2595865b5, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 818af61ad79961748b001325b88f2f47, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1556,7 +1556,7 @@ GameObject:
   - component: {fileID: 1653967014}
   - component: {fileID: 1653967013}
   m_Layer: 5
-  m_Name: Rooftop
+  m_Name: Lobby
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1601,7 +1601,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 68242932d8bdd9648a1f56830b284bfa, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 2c4ad66a9b30ea84ca99f58ad008ffd6, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1890,7 +1890,7 @@ GameObject:
   - component: {fileID: 1989881449}
   - component: {fileID: 1989881448}
   m_Layer: 5
-  m_Name: Lobby
+  m_Name: Rooftop
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1935,7 +1935,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 50b1de7eca4c3ef4da869306c8bac8db, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 5d063385b74bc9549b361a711d5a2409, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
