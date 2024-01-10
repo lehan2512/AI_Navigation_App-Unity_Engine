@@ -3,11 +3,12 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class Explore : MonoBehaviour
+public class LoadExploreHighlight : MonoBehaviour
 {
-    public void LoadExploreSceneOnClick()
+    // Start is called before the first frame update
+    public void LoadMainSceneOnClick()
     {
         SceneManager.LoadSceneAsync("ExploreScene");
-        
+
     }
 }
