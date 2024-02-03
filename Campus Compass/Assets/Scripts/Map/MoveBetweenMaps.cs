@@ -37,7 +37,7 @@ public class MoveBetweenMaps : MonoBehaviour
         {
             PlayerPrefs.SetString("Location", LocationPlace);
             PlayerPrefs.SetString("Destination",DestinationPlace);
-            if (DestinationFloor == "First Floor")
+            if (DestinationFloor == "First")
             {
                 SceneManager.LoadScene("First Floor");
             }

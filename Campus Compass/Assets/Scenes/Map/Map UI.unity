@@ -4039,11 +4039,17 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
-    m_AddedGameObjects: []
+    m_AddedGameObjects:
+    - targetCorrespondingSourceObject: {fileID: -8679921383154817045, guid: 938ebbe9433ff7b4488d592c7698807f, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1713056443}
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 938ebbe9433ff7b4488d592c7698807f, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1856178727}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 938ebbe9433ff7b4488d592c7698807f, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1856178729}
   m_SourcePrefab: {fileID: 100100000, guid: 938ebbe9433ff7b4488d592c7698807f, type: 3}
 --- !u!1 &1292669253
 GameObject:
@@ -5741,14 +5747,14 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1713056442}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 303.545, y: 1159.1865, z: -129.29558}
+  m_LocalRotation: {x: -0, y: -0.9961947, z: 0.08715578, w: 0}
+  m_LocalPosition: {x: -303.73502, y: 1165.1768, z: -71.014175}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1724576595}
   - {fileID: 1323564056}
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 1856178730}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1716248196
 GameObject:
@@ -6467,6 +6473,24 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &1856178729
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1856178725}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0905a6dcc7e700e45a5358a1d852b56b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scene: 0
+--- !u!4 &1856178730 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 938ebbe9433ff7b4488d592c7698807f, type: 3}
+  m_PrefabInstance: {fileID: 1178425593}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1861493644
 GameObject:
   m_ObjectHideFlags: 0
@@ -7857,5 +7881,4 @@ SceneRoots:
   - {fileID: 1536982972}
   - {fileID: 1500612028}
   - {fileID: 1178425593}
-  - {fileID: 1713056443}
   - {fileID: 53483981}
