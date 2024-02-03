@@ -21,7 +21,7 @@ public class SetNavigationTarget : MonoBehaviour
     private void Start()
     {
         path = new NavMeshPath();
-        line = transform.GetComponent <LineRenderer>();
+        line = transform.GetComponent<LineRenderer>();
     }
 
     // Update is called once per frame
