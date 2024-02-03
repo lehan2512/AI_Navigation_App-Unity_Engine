@@ -15,6 +15,7 @@ public class SetNavigationTarget : MonoBehaviour
     private NavMeshPath path; //current calculated path
     private LineRenderer line; //linerenderer to display the path
     private Vector3 targetPosition = Vector3.zero; // current target position
+    
 
     private bool lineToggle = true;
 
@@ -50,6 +51,8 @@ public class SetNavigationTarget : MonoBehaviour
         if (currentTarget != null)
         {
             targetPosition = currentTarget.PositionObject.transform.position;
+            OtherTargetsInvisible(PlayerPrefs.GetString("Destination"));
+
         }
     }
 
@@ -58,6 +61,18 @@ public class SetNavigationTarget : MonoBehaviour
         navTargetObjectList.Add(first);
         navTargetObjectList.Add(Second);
         navTargetObjectList.Add(Third);    
+    }
+
+    private void OtherTargetsInvisible( string name)
+    {
+        for (int i = 0;  i < navTargetObjectList.Count; i++)
+        {
+            if (navTargetObjectList[i].Name != name)
+            {
+                Renderer objectRenderer = navTargetObjectList[i].PositionObject.GetComponent<Renderer>();
+                objectRenderer.enabled = false;
+            }
+        }
     }
 
 }
