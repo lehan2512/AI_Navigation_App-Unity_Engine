@@ -56,13 +56,6 @@ public class SetNavigationTarget : MonoBehaviour
         }
     }
 
-    public void PopulateFirst(Target first, Target Second, Target Third )
-    {
-        navTargetObjectList.Add(first);
-        navTargetObjectList.Add(Second);
-        navTargetObjectList.Add(Third);    
-    }
-
     private void OtherTargetsInvisible( string name)
     {
         for (int i = 0;  i < navTargetObjectList.Count; i++)
