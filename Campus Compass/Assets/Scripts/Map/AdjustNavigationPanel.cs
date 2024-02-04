@@ -4,6 +4,7 @@ using System;
 using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class AdjustNavigationPanel : MonoBehaviour
 {
@@ -31,7 +32,11 @@ public class AdjustNavigationPanel : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        string Distance = CalculateDistance(); 
+        string Distance = CalculateDistance();
+        if (double.Parse(Distance) < 0.5 )
+        {
+            SceneManager.LoadSceneAsync("ArrivedAtDestination");
+        }
         DistanceText.text = Distance + " m";   
     }
 
