@@ -42,6 +42,13 @@ public class MoveBetweenMaps : MonoBehaviour
                 SceneManager.LoadScene("First Floor");
             }
 
+            if (DestinationFloor == "Ground")
+            {
+                SceneManager.LoadScene("Ground Floor");
+            }
+
+
+
         }
         
     }
@@ -55,7 +62,7 @@ public class MoveBetweenMaps : MonoBehaviour
 
         if ( pickedLocation == pickedDestination)
         {
-            text.color = UnityEngine.Color.white;
+            text.color = UnityEngine.Color.red;
 
         }
         else
