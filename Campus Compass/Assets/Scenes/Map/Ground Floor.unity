@@ -2056,11 +2056,11 @@ MonoBehaviour:
   navTargetObjectList:
   - Name: Washrooms
     PositionObject: {fileID: 1123310342}
-  - Name: Studentwellbeingoffice
+  - Name: Student Well-being office
     PositionObject: {fileID: 1908087006}
-  - Name: Loungearea
+  - Name: Lounge Area
     PositionObject: {fileID: 1455041721}
-  - Name: Mainentrance
+  - Name: Main-Entrance
     PositionObject: {fileID: 1486739019}
   - Name: Staircase
     PositionObject: {fileID: 33210086}
@@ -2076,11 +2076,26 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 717cce31c7a9f5446847e50e5b709107, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  navTargetObjectList: []
-  TargetObjects: []
+  navTargetObjectList:
+  - Name: Washrooms
+    PositionObject: {fileID: 1123310342}
+  - Name: Student Well-being office
+    PositionObject: {fileID: 1908087006}
+  - Name: Lounge Area
+    PositionObject: {fileID: 1455041721}
+  - Name: Main-Entrance
+    PositionObject: {fileID: 1486739019}
+  - Name: Staircase
+    PositionObject: {fileID: 33210086}
+  TargetObjects:
+  - {fileID: 1486739020}
+  - {fileID: 1908087007}
+  - {fileID: 1455041722}
+  - {fileID: 1123310346}
+  - {fileID: 33210087}
   Indicator: {fileID: 1901056740}
-  DistanceText: {fileID: 0}
-  DestinationText: {fileID: 0}
+  DistanceText: {fileID: 45364980}
+  DestinationText: {fileID: 110073598}
 --- !u!1 &544139614
 GameObject:
   m_ObjectHideFlags: 0

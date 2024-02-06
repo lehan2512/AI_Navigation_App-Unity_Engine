@@ -17,7 +17,7 @@ public class DropDownOptions : MonoBehaviour
         AvailableOptions.Add(new TMP_Dropdown.OptionData("Student Well-being office", null));
         AvailableOptions.Add(new TMP_Dropdown.OptionData("Lounge Area", null));
         AvailableOptions.Add(new TMP_Dropdown.OptionData("Washrooms", null));
-
+        AvailableOptions.Add(new TMP_Dropdown.OptionData("Staircase", null));
 
         PlaceDropdown.options = AvailableOptions;
         PlaceDropdown.RefreshShownValue();
