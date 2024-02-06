@@ -33,7 +33,7 @@ public class AdjustNavigationPanel : MonoBehaviour
     void Update()
     {
         string Distance = CalculateDistance();
-        if (double.Parse(Distance) < 0.5 )
+        if (double.Parse(Distance) < 1.1 )
         {
             SceneManager.LoadSceneAsync("ArrivedAtDestination");
         }
