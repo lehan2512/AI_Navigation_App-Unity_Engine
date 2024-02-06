@@ -47,6 +47,12 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Explore/ExploreScene.unity
     guid: f551f0b9a8a3fa14c8ce49b9fa7ee822
+  - enabled: 1
+    path: Assets/Scenes/Map/ArrivedAtDestination.unity
+    guid: 8906d24bd76423f41bd4d0a7c261b42a
+  - enabled: 1
+    path: Assets/Scenes/Map/Ground Floor.unity
+    guid: 9fc0d4010bbf28b4594072e72b8655ab
   m_configObjects:
     UnityEditor.XR.ARCore.ARCoreSettings: {fileID: 11400000, guid: 89a6d18d3df8d3e4fa917b0f9a963bc0, type: 2}
     UnityEditor.XR.ARKit.ARKitSettings: {fileID: 11400000, guid: de8a8e4f987434338a4b1062feb8d069, type: 2}
