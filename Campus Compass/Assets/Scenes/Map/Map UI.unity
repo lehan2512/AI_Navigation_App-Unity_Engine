@@ -4050,6 +4050,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 938ebbe9433ff7b4488d592c7698807f, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1856178729}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 938ebbe9433ff7b4488d592c7698807f, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1856178731}
   m_SourcePrefab: {fileID: 100100000, guid: 938ebbe9433ff7b4488d592c7698807f, type: 3}
 --- !u!1 &1292669253
 GameObject:
@@ -6491,6 +6494,23 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 938ebbe9433ff7b4488d592c7698807f, type: 3}
   m_PrefabInstance: {fileID: 1178425593}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1856178731
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1856178725}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3e05b449455ea274c8de582c62347cfc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  arCamera: {fileID: 1581447042}
+  sceneNo: 0
+  exit: 0
+  YesButton: {fileID: 0}
+  NoButton: {fileID: 0}
 --- !u!1 &1861493644
 GameObject:
   m_ObjectHideFlags: 0
