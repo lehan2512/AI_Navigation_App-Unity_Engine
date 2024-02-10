@@ -24,5 +24,10 @@ public class Back : MonoBehaviour
 
     }
 
+    public void LoadMapUI()
+    {
+        SceneManager.LoadSceneAsync("Map UI");
+    }
+
 
 }
