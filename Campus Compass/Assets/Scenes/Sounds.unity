@@ -363,7 +363,19 @@ MonoBehaviour:
   m_Value: 0.51
   m_OnValueChanged:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 860643679}
+        m_TargetAssemblyTypeName: MovingSlider, Assembly-CSharp
+        m_MethodName: SetVolume
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &574654445
 GameObject:
   m_ObjectHideFlags: 0
@@ -848,9 +860,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   slider: {fileID: 0}
-  speed: 1
-  minValue: 0
-  maxValue: 1
+  valueText: {fileID: 0}
 --- !u!4 &860643680
 Transform:
   m_ObjectHideFlags: 0

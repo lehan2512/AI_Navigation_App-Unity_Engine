@@ -4,25 +4,20 @@ using UnityEngine;
 using UnityEngine.UI;
 
 
-public class MovingSlider : MonoBehaviour
+public class SliderController : MonoBehaviour
 {
     public Slider slider;
-    public float speed = 1f;
-    public float minValue = 0f;
-    public float maxValue = 1f;
+    public Text valueText; // Optional: If you want to display the current value of the slider.
 
-    private bool increasing = true;
-
-    void Update()
+    // This method is called when the slider's value changes.
+    public void OnSliderValueChanged()
     {
-        // Move the slider handle based on speed
-        if (increasing)
-            slider.value += speed * Time.deltaTime;
-        else
-            slider.value -= speed * Time.deltaTime;
+        // Optional: Update a text field to display the current value of the slider.
+        if (valueText != null)
+        {
+            valueText.text = slider.value.ToString();
+        }
 
-        // Reverse direction when reaching min or max value
-        if (slider.value >= maxValue || slider.value <= minValue)
-            increasing = !increasing;
+        // Here you can add any other logic you want to execute when the slider's value changes.
     }
 }
