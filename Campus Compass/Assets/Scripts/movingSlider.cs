@@ -13,7 +13,7 @@ public class MovingSlider : MonoBehaviour
 
     private bool increasing = true;
 
-    void Update()
+    /*void Update()
     {
         // Move the slider handle based on speed
         if (increasing)
@@ -30,5 +30,5 @@ public class MovingSlider : MonoBehaviour
         {
             increasing = !increasing;
         }
-    }
+    }*/
 }
