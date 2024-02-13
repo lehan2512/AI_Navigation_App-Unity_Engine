@@ -17,12 +17,18 @@ public class MovingSlider : MonoBehaviour
     {
         // Move the slider handle based on speed
         if (increasing)
+        {
             slider.value += speed * Time.deltaTime;
+        }
         else
+        {
             slider.value -= speed * Time.deltaTime;
+        }
 
         // Reverse direction when reaching min or max value
         if (slider.value >= maxValue || slider.value <= minValue)
+        {
             increasing = !increasing;
+        }
     }
 }
