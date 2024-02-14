@@ -24,6 +24,18 @@ public class Back : MonoBehaviour
 
     }
 
+    public void SoundScene()
+    {
+        SceneManager.LoadSceneAsync("Sounds");
+
+    }
+
+    public void AvatarScene()
+    {
+        SceneManager.LoadSceneAsync("Avatar");
+
+    }
+
     public void LoadMapUI()
     {
         SceneManager.LoadSceneAsync("Map UI");
