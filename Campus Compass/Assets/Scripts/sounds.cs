@@ -11,15 +11,14 @@ public class sounds : MonoBehaviour
 
     public AudioMixer audioMixer;
 
-    public void SetVolume(float volume)
-    {
-        audioMixer.SetFloat("volume", volume);
-    }
+    
     
     public void playSoundOnClick()
     {
         source.Play();
     }
+
+    // not  to change
 
     void Update()
     {
@@ -27,5 +26,9 @@ public class sounds : MonoBehaviour
         {
             source.PlayOneShot(clip);      
         }
+    }
+    public void SetVolume(float volume)
+    {
+        audioMixer.SetFloat("volume", volume);
     }
 }
