@@ -26,6 +26,7 @@ public class SetNavigationTarget : MonoBehaviour
     {
         path = new NavMeshPath();
         line = transform.GetComponent<LineRenderer>();
+        line.enabled = lineToggle; 
         SetCurrentNavigationTarget();
     }
     // Update is called once per frame
@@ -67,6 +68,7 @@ public class SetNavigationTarget : MonoBehaviour
             }
         }
     }
+    
 
 }
 

@@ -55,7 +55,7 @@ public class SuziePlacement : MonoBehaviour
         {
             transform.position -= arCameraTransform.up * down; // Move down
             transform.position -= arCameraTransform.right * left; // Move left
-            transform.position = initialPosition;
+            //transform.position = initialPosition;
 
             if (sceneNo == 2)
             {
