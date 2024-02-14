@@ -3920,8 +3920,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1139810238}
-        m_TargetAssemblyTypeName: BackToMain, Assembly-CSharp
-        m_MethodName: LoadMainSceneOnClick
+        m_TargetAssemblyTypeName: Back, Assembly-CSharp
+        m_MethodName: MainAppScene
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}

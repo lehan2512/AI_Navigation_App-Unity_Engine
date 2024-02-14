@@ -9,8 +9,6 @@ public class SuziePlacement : MonoBehaviour
     private Transform arCameraTransform;
     public int sceneNo;
     public bool exit;
-    public Button YesButton;
-    public Button NoButton;
     private Vector3 initialPosition;
 
 
@@ -55,40 +53,8 @@ public class SuziePlacement : MonoBehaviour
         {
             transform.position -= arCameraTransform.up * down; // Move down
             transform.position -= arCameraTransform.right * left; // Move left
-            //transform.position = initialPosition;
-
-            if (sceneNo == 2)
-            {
-                Image yesImage = YesButton.GetComponent<Image>();
-                Image noImage = NoButton.GetComponent<Image>();
-
-                yesImage.enabled = false;
-                noImage.enabled = false;
-            }
+            //transform.position = initialPosition;  
         }
-
-      
-    }
-
-    public void PressedExit()
-    {
-        Image yesImage = YesButton.GetComponent<Image>();
-        Image noImage = NoButton.GetComponent<Image>();
-
-        yesImage.enabled = true;
-        noImage.enabled = true;
-
-
-        Vector3 screenCenter = new Vector3(Screen.width / 2f, Screen.height / 2f, 0f);
-
-        // Convert screen center position to world space
-        Vector3 worldCenter = Camera.main.ScreenToWorldPoint(screenCenter);
-
-        // Set the character's position to the calculated world space center position
-        transform.position = worldCenter;
-
-        transform.localScale *= 1.5f;
-
     }
 }
 
