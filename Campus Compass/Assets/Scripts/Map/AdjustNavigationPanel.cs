@@ -49,6 +49,7 @@ public class AdjustNavigationPanel : MonoBehaviour
             {
                 break;
             }
+
         }
         return i;
     }

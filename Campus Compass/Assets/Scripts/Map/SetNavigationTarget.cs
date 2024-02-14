@@ -65,6 +65,7 @@ public class SetNavigationTarget : MonoBehaviour
             {
                 Renderer objectRenderer = navTargetObjectList[i].PositionObject.GetComponent<Renderer>();
                 objectRenderer.enabled = false;
+
             }
         }
     }

@@ -4053,6 +4053,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 938ebbe9433ff7b4488d592c7698807f, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1856178731}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 938ebbe9433ff7b4488d592c7698807f, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1856178732}
   m_SourcePrefab: {fileID: 100100000, guid: 938ebbe9433ff7b4488d592c7698807f, type: 3}
 --- !u!1 &1292669253
 GameObject:
@@ -5735,6 +5738,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1713056443}
+  - component: {fileID: 1713056444}
   m_Layer: 0
   m_Name: SpeechBox
   m_TagString: Untagged
@@ -5759,6 +5763,18 @@ Transform:
   - {fileID: 1323564056}
   m_Father: {fileID: 1856178730}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1713056444
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1713056442}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4f11b11f731323041928eb992ede20df, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1716248196
 GameObject:
   m_ObjectHideFlags: 0
@@ -5940,6 +5956,7 @@ GameObject:
   - component: {fileID: 1724576595}
   - component: {fileID: 1724576597}
   - component: {fileID: 1724576596}
+  - component: {fileID: 1724576598}
   m_Layer: 0
   m_Name: Text (TMP)
   m_TagString: Untagged
@@ -6100,6 +6117,18 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!114 &1724576598
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1724576594}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8c70cab838baedb46b87ad0143ec4154, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1748988230
 GameObject:
   m_ObjectHideFlags: 0
@@ -6511,6 +6540,18 @@ MonoBehaviour:
   exit: 0
   YesButton: {fileID: 0}
   NoButton: {fileID: 0}
+--- !u!114 &1856178732
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1856178725}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4f11b11f731323041928eb992ede20df, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1861493644
 GameObject:
   m_ObjectHideFlags: 0

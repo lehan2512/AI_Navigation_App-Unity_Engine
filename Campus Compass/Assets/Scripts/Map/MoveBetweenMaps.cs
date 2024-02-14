@@ -69,6 +69,17 @@ public class MoveBetweenMaps : MonoBehaviour
         {
             MovetoMap();
         }
+
+        if (LocationFloor != DestinationFloor)
+        {
+            text.color = UnityEngine.Color.red;
+            text.text = "Please use the staircase to go to the destination floor and select the destination again.";
+        }
+        else
+        {
+            MovetoMap();
+        }
+
     }
 
 }
