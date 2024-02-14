@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using System.Media;
 using UnityEngine;
 using UnityEngine.Audio;
 
@@ -13,6 +14,11 @@ public class sounds : MonoBehaviour
     public void SetVolume(float volume)
     {
         audioMixer.SetFloat("volume", volume);
+    }
+    
+    public void playSoundOnClick()
+    {
+        source.Play();
     }
 
     void Update()
