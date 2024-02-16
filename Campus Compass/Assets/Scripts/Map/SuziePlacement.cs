@@ -28,7 +28,7 @@ public class SuziePlacement : MonoBehaviour
         }
         else if (sceneNo == 1)
         {
-            SuzieLocation(2f, 0.2f, 0.2f);
+            SuzieLocation(2f, 0.4f, 0.4f);
         }
 
     }
@@ -46,15 +46,18 @@ public class SuziePlacement : MonoBehaviour
 
         // Place the object a certain distance in front of the camera
 
-        transform.position = arCameraTransform.position + arCameraTransform.forward * distance;
+        transform.position = arCameraTransform.position + arCameraTransform.forward * distance - arCameraTransform.right * left - arCameraTransform.up * down;
+        
 
         // Adjust position to move down and left
-        if (exit == false)
+        /*if (exit == false)
         {
-            transform.position -= arCameraTransform.up * down; // Move down
+           
+            transform.position -= .up * down; // Move down
             transform.position -= arCameraTransform.right * left; // Move left
-            //transform.position = initialPosition;  
-        }
+            //transform.position = initialPosition;
+
+        }*/
     }
 }
 
