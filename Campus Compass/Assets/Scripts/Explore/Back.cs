@@ -12,6 +12,12 @@ public class Back : MonoBehaviour
 
     }
 
+    public void LoadExploreMain()
+    {
+        SceneManager.LoadSceneAsync("ExploreMain");
+
+    }
+
     public void LoadSettings()
     {
         SceneManager.LoadSceneAsync("Settings");
