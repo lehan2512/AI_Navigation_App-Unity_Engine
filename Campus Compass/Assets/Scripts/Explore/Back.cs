@@ -12,6 +12,12 @@ public class Back : MonoBehaviour
 
     }
 
+    public void LoadExploreMain()
+    {
+        SceneManager.LoadSceneAsync("ExploreMain");
+
+    }
+
     public void LoadSettings()
     {
         SceneManager.LoadSceneAsync("Settings");
@@ -21,6 +27,18 @@ public class Back : MonoBehaviour
     public void MainAppScene()
     {
         SceneManager.LoadSceneAsync("Main");
+
+    }
+
+    public void SoundScene()
+    {
+        SceneManager.LoadSceneAsync("Sounds");
+
+    }
+
+    public void AvatarScene()
+    {
+        SceneManager.LoadSceneAsync("Avatar");
 
     }
 

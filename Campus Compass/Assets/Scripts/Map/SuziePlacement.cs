@@ -9,8 +9,6 @@ public class SuziePlacement : MonoBehaviour
     private Transform arCameraTransform;
     public int sceneNo;
     public bool exit;
-    public Button YesButton;
-    public Button NoButton;
     private Vector3 initialPosition;
 
 
@@ -30,7 +28,7 @@ public class SuziePlacement : MonoBehaviour
         }
         else if (sceneNo == 1)
         {
-            SuzieLocation(2f, 0.2f, 0.2f);
+            SuzieLocation(2f, 0.4f, 0.4f);
         }
 
     }
@@ -48,47 +46,18 @@ public class SuziePlacement : MonoBehaviour
 
         // Place the object a certain distance in front of the camera
 
-        transform.position = arCameraTransform.position + arCameraTransform.forward * distance;
+        transform.position = arCameraTransform.position + arCameraTransform.forward * distance - arCameraTransform.right * left - arCameraTransform.up * down;
+        
 
         // Adjust position to move down and left
-        if (exit == false)
+        /*if (exit == false)
         {
-            transform.position -= arCameraTransform.up * down; // Move down
+           
+            transform.position -= .up * down; // Move down
             transform.position -= arCameraTransform.right * left; // Move left
             //transform.position = initialPosition;
 
-            if (sceneNo == 2)
-            {
-                Image yesImage = YesButton.GetComponent<Image>();
-                Image noImage = NoButton.GetComponent<Image>();
-
-                yesImage.enabled = false;
-                noImage.enabled = false;
-            }
-        }
-
-      
-    }
-
-    public void PressedExit()
-    {
-        Image yesImage = YesButton.GetComponent<Image>();
-        Image noImage = NoButton.GetComponent<Image>();
-
-        yesImage.enabled = true;
-        noImage.enabled = true;
-
-
-        Vector3 screenCenter = new Vector3(Screen.width / 2f, Screen.height / 2f, 0f);
-
-        // Convert screen center position to world space
-        Vector3 worldCenter = Camera.main.ScreenToWorldPoint(screenCenter);
-
-        // Set the character's position to the calculated world space center position
-        transform.position = worldCenter;
-
-        transform.localScale *= 1.5f;
-
+        }*/
     }
 }
 
