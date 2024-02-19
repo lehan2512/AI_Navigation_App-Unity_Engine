@@ -5,66 +5,69 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Access.unity
     guid: e1e059ed248b06d4c936d69e2f450ae8
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/CreateAccount.unity
     guid: 5e4ff53329c678643bfa1bc21ac96382
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Main.unity
     guid: 15f66cd6c1107c54686dfcd323a419e2
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Settings.unity
     guid: c0ae33e6dd788764aa7d55adcee1df44
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Map/Map UI.unity
     guid: 679cf1616b8ba34458886960cfdd9fb0
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Map/First Floor.unity
     guid: b5ba18e38e4c7ea42923b30e9f101ee6
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Explore/ExploreGround.unity
     guid: 375911081a5648245b4d91a2e239df0e
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Explore/ExploreLevelFour.unity
     guid: 8534577c838ba98478e140b86461ad4e
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Explore/ExploreLevelOne.unity
     guid: 5857d3c031e008c4c904de523df91e82
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Explore/ExploreLevelThree.unity
     guid: 2721e931ca0716b4aa388be5ac579a21
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Explore/ExploreLevelTwo.unity
     guid: 28092257af0ae53479a2c09e39abe643
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Explore/ExploreMain.unity
     guid: 5dd09f9da55d17c4a84fdb3f3e665bd1
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Explore/ExploreRooftop.unity
     guid: e1d4220e3d4a7d44bb9c8de56ecd2904
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Explore/ExploreScene.unity
     guid: f551f0b9a8a3fa14c8ce49b9fa7ee822
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Map/ArrivedAtDestination.unity
     guid: 8906d24bd76423f41bd4d0a7c261b42a
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Map/Ground Floor.unity
     guid: 9fc0d4010bbf28b4594072e72b8655ab
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/EditName.unity
     guid: e0ec25183c3453d4197ed54af1dd6d0d
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Avatar.unity
     guid: 9cec2b65fb3cf124c96d7381200e3771
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Sounds.unity
     guid: 712a6884687bf614eb0d8b2bbb318a04
   - enabled: 0
     path: Assets/Scenes/AR image tracker.unity
     guid: 49fecc33aeb35e24aba4e36e2f6775a4
+  - enabled: 1
+    path: Assets/Scenes/Image Tracking.unity
+    guid: 6d8cfddceffcacb478dc86163e36f2d9
   m_configObjects:
     UnityEditor.XR.ARCore.ARCoreSettings: {fileID: 11400000, guid: 89a6d18d3df8d3e4fa917b0f9a963bc0, type: 2}
     UnityEditor.XR.ARKit.ARKitSettings: {fileID: 11400000, guid: de8a8e4f987434338a4b1062feb8d069, type: 2}

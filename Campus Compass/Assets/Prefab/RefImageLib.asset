@@ -18,12 +18,12 @@ MonoBehaviour:
     m_Storage: []
   m_Images:
   - m_SerializedGuid:
-      m_GuidLow: 4695223697255519766
-      m_GuidHigh: 16322889787616620201
+      m_GuidLow: 4763758890172656402
+      m_GuidHigh: 9539120671577477296
     m_SerializedTextureGuid:
-      m_GuidLow: 4793052324933621047
-      m_GuidHigh: 12893433228630647128
-    m_Size: {x: 0.1, y: 0.125}
+      m_GuidLow: 1537109107639408698
+      m_GuidHigh: 10494448715644176618
+    m_Size: {x: 0.1, y: 0.1}
     m_SpecifySize: 1
-    m_Name: mae-mu-_C5zsV_p-YI-unsplash
-    m_Texture: {fileID: 2800000, guid: e187553757b142845861bf8735adeeb2, type: 3}
+    m_Name: number-1-icon-png-8
+    m_Texture: {fileID: 2800000, guid: e5dd583ae8961554ea88864181c5a391, type: 3}
