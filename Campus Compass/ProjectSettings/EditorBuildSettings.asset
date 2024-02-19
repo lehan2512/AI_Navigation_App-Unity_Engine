@@ -62,7 +62,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Sounds.unity
     guid: 712a6884687bf614eb0d8b2bbb318a04
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/AR image tracker.unity
     guid: 49fecc33aeb35e24aba4e36e2f6775a4
   m_configObjects:
