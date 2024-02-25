@@ -1,0 +1,4 @@
+repository "Campus Compass@unity_863C3527EB4442AE258D@cloud"
+  path "/"
+    br "/main"
+    co "/main"
