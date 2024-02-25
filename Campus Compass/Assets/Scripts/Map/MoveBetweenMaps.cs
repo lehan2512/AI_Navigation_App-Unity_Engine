@@ -72,8 +72,11 @@ public class MoveBetweenMaps : MonoBehaviour
 
         if (LocationFloor != DestinationFloor)
         {
-            text.color = UnityEngine.Color.red;
-            text.text = "Please use the staircase to go to the destination floor and select the destination again.";
+            SceneManager.LoadScene("Onefloortoanothefloor");
+
+
+           // speechBox.SetText("Your new speech text");
+
         }
         else
         {
