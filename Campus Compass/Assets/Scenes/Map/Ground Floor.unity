@@ -2080,6 +2080,7 @@ GameObject:
   - component: {fileID: 400204039}
   - component: {fileID: 400204038}
   - component: {fileID: 400204037}
+  - component: {fileID: 400204040}
   m_Layer: 0
   m_Name: ExitButton
   m_TagString: Untagged
@@ -2150,7 +2151,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 400204038}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 400204040}
+        m_TargetAssemblyTypeName: Back, Assembly-CSharp
+        m_MethodName: MainAppScene
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &400204038
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2189,6 +2202,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 400204035}
   m_CullTransparentMesh: 1
+--- !u!114 &400204040
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 400204035}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eda3715c409656f45aee92b2642a0cfc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &405779461
 GameObject:
   m_ObjectHideFlags: 0
@@ -2846,7 +2871,6 @@ RectTransform:
   m_LocalScale: {x: 0, y: 0, z: 0}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 866304507}
   - {fileID: 291301745}
   - {fileID: 1458528088}
   - {fileID: 393681679}
@@ -3157,7 +3181,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 652679095}
+    m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: -8969424602164868368, guid: 938ebbe9433ff7b4488d592c7698807f, type: 3}
       propertyPath: m_Layer
@@ -3169,19 +3193,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 938ebbe9433ff7b4488d592c7698807f, type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.31645146
+      value: 0.31645152
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 938ebbe9433ff7b4488d592c7698807f, type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.3853995
+      value: 0.38539952
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 938ebbe9433ff7b4488d592c7698807f, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -540.601
+      value: -0.6010132
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 938ebbe9433ff7b4488d592c7698807f, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -1200.293
+      value: -0.29296875
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 938ebbe9433ff7b4488d592c7698807f, type: 3}
       propertyPath: m_LocalPosition.z
@@ -6540,6 +6564,7 @@ SceneRoots:
   - {fileID: 130939784}
   - {fileID: 773473365}
   - {fileID: 1766182351}
+  - {fileID: 866304506}
   - {fileID: 652679095}
   - {fileID: 1678422878}
   - {fileID: 94605549}
