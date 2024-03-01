@@ -72,10 +72,8 @@ public class MoveBetweenMaps : MonoBehaviour
 
         if (LocationFloor != DestinationFloor)
         {
-            SceneManager.LoadScene("Onefloortoanothefloor");
-
-
-           // speechBox.SetText("Your new speech text");
+            //SceneManager.LoadScene("Onefloortoanothefloor");
+    
 
         }
         else

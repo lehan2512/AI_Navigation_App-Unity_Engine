@@ -68,7 +68,7 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes/AR image tracker.unity
     guid: 49fecc33aeb35e24aba4e36e2f6775a4
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/Image Tracking.unity
     guid: 6d8cfddceffcacb478dc86163e36f2d9
   m_configObjects:
