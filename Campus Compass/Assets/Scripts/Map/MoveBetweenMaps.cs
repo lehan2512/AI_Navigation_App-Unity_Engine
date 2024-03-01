@@ -47,6 +47,11 @@ public class MoveBetweenMaps : MonoBehaviour
                 SceneManager.LoadScene("Ground Floor");
             }
 
+            if (DestinationFloor == "Rooftop")
+            {
+                SceneManager.LoadScene("Rooftop");
+            }
+
 
 
         }
