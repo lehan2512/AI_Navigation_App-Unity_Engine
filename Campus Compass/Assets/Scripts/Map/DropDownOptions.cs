@@ -27,8 +27,10 @@ public class DropDownOptions : MonoBehaviour
     {
         AvailableOptions.Add(new TMP_Dropdown.OptionData("Entrance", null));
         AvailableOptions.Add(new TMP_Dropdown.OptionData("Library", null));
+        AvailableOptions.Add(new TMP_Dropdown.OptionData("Student Ambassador", null));
         AvailableOptions.Add(new TMP_Dropdown.OptionData("Staff Office", null));
         AvailableOptions.Add(new TMP_Dropdown.OptionData("Washrooms", null));
+        AvailableOptions.Add(new TMP_Dropdown.OptionData("Student Ambassador", null));
 
 
         PlaceDropdown.options = AvailableOptions;
@@ -85,9 +87,9 @@ public class DropDownOptions : MonoBehaviour
     private void RooftopOptions()
     {
         AvailableOptions.Add(new TMP_Dropdown.OptionData("Entrance", null));
-        AvailableOptions.Add(new TMP_Dropdown.OptionData("Cafeteria", null));
-        AvailableOptions.Add(new TMP_Dropdown.OptionData("Lounge Area", null));
         AvailableOptions.Add(new TMP_Dropdown.OptionData("Pool Table", null));
+        AvailableOptions.Add(new TMP_Dropdown.OptionData("Student Lounge Area", null));
+        AvailableOptions.Add(new TMP_Dropdown.OptionData("Cafeteria", null));
 
 
         PlaceDropdown.options = AvailableOptions;
