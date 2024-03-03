@@ -81,10 +81,10 @@ public class MoveBetweenMaps : MonoBehaviour
     
 
         }
-        else
+        /*else
         {
             MovetoMap();
-        }
+        }*/
 
     }
 
