@@ -381,9 +381,9 @@ GameObject:
   m_Component:
   - component: {fileID: 181944863}
   - component: {fileID: 181944867}
+  - component: {fileID: 181944868}
   - component: {fileID: 181944864}
   - component: {fileID: 181944865}
-  - component: {fileID: 181944868}
   m_Layer: 10
   m_Name: Indicator
   m_TagString: Untagged
