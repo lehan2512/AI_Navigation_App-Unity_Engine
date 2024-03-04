@@ -74,7 +74,11 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Map/Rooftop.unity
     guid: ba48ca4af5c341a46879d51b0a63757a
+  - enabled: 1
+    path: Assets/Scenes/Locator.unity
+    guid: 2af1cdff230866046bf984c0ebd7c722
   m_configObjects:
+    EasyAR.Settings: {fileID: 11400000, guid: b746d6d3ecbb1c3439908c1403154e28, type: 2}
     UnityEditor.XR.ARCore.ARCoreSettings: {fileID: 11400000, guid: 89a6d18d3df8d3e4fa917b0f9a963bc0, type: 2}
     UnityEditor.XR.ARKit.ARKitSettings: {fileID: 11400000, guid: de8a8e4f987434338a4b1062feb8d069, type: 2}
     com.unity.xr.arfoundation.simulation_settings: {fileID: 11400000, guid: b82edc08f1b13604c9c1934b4f948c56, type: 2}
