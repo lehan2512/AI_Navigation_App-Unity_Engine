@@ -5881,8 +5881,8 @@ MonoBehaviour:
   SourceType: 0
   ImageFileSource:
     PathType: 1
-    Path: library.jpg
-    Name: jupiter
+    Path: library2.jpg
+    Name: library2
     Scale: 1
   TargetDataFileSource:
     PathType: 1
