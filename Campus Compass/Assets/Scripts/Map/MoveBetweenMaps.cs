@@ -75,7 +75,7 @@ public class MoveBetweenMaps : MonoBehaviour
             MovetoMap();
         }
 
-        if (LocationFloor != DestinationFloor)
+        /*if (LocationFloor != DestinationFloor)
         {
             //SceneManager.LoadScene("Onefloortoanothefloor");
     
